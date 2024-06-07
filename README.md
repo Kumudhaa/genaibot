@@ -1,6 +1,9 @@
 # Gen-AI Q&A App
 Interactive Generative AI Assessment
 
+Author : Kumudhaa V 
+Contact details : 9943424237 (Whatsapp)
+
 System Overview :
 
 This system simulates an interactive assessment of a user's knowledge about Generative AI. 
