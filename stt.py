@@ -77,9 +77,8 @@ submit=st.button('Submit')
 if ask_question:
     response=get_response(f'''
                           Ask me a question about generative AI topics such as 
-                          algorithms, applications and technological impacts
-                          ensuring that the question is logically sequenced based on previous questions asked by ai in
-                          {st.session_state['chat_history']} if there are any.
+                          algorithms, applications and technological impacts. it should not be repeated from
+                          {st.session_state['chat_history']}.
 
 ''')
     # Add user query and response to session state chat history
