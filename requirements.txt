@@ -1,6 +1,6 @@
 openai
 streamlit 
 streamlit-audiorecorder
-ffmpeg
+pydub
 transformers
 torch
