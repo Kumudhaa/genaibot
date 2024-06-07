@@ -1,6 +1,6 @@
 openai
 streamlit 
-streamlit-audiorecorder
+streamlit-audiorec
 pydub
 transformers
 torch
