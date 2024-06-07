@@ -1,5 +1,0 @@
-openai
-streamlit 
-st_audiorec
-transformers
-torch
