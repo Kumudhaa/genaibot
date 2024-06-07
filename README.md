@@ -27,7 +27,7 @@ The system utilizes sentence transformers for the response analysis functionalit
 Sentence transformers are a type of neural network model trained to embed sentences into numerical representations that capture their semantic meaning.
 The scores are calculated by capturing the semantic similarity between the user's answer the correct answer.
 
-User interface :
+User Interface :
 
 Streamlit is used as the framework for building the UI and deploying the application.
 The UI prioritizes clarity and ease of use. It avoids overwhelming the user with unnecessary elements.
