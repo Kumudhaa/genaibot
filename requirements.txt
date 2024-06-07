@@ -1,5 +1,5 @@
 openai
 streamlit 
-audio_recorder_streamlit
+streamlit-audiorecorder
 transformers
 torch
