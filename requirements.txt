@@ -1,3 +1,5 @@
 openai
-langchain
 streamlit 
+st_audiorec
+transformers
+torch
