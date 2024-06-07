@@ -1,6 +1,6 @@
 import os 
 import streamlit as st 
-from st_audiorec import st_audiorec
+from audio_recorder_streamlit import audio_recorder
 from transformers import AutoModel, AutoTokenizer
 import torch
 
@@ -69,7 +69,7 @@ st.write("Provide your answer by either recording or typing in the text box and 
 
 footer_container = st.container()
 with footer_container:
-    audio_bytes = st_audiorec()
+    audio_bytes = audio_recorder()
 
 input=st.text_input("Your Answer: ",key="input")
 submit=st.button('Submit')
